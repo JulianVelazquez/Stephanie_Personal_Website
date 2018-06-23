@@ -8,6 +8,7 @@ html {
     width: 1200px;
     border: 1px solid green;
     margin: auto;
+    position: relative;
 }
 
 #topimage {
@@ -33,18 +34,15 @@ html {
 }
 
 #subheader {
-    width: 99%;
-    height: 5px;
-    margin-left: auto;
+    width: 50%;
+    height: 600px;
+    background-color: firebrick;
+    float: left;
+    position: absolute;
+    margin-left: 25%;
     margin-right: auto;
-    margin-top: 1px;
-    border: 3px dotted black;
-}
+    margin-top: -200px;
 
-#content {
-    margin-left: 0px;
-    margin-right: auto;
-    width: 100%;
 }
 
 #left {
