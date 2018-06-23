@@ -8,16 +8,17 @@ html {
     width: 1200px;
     border: 1px solid green;
     margin: auto;
+
     position: relative;
 }
 
 #topimage {
-    width: 99%;
+    width: 100%;
     height: 200px;
     margin-left: auto;
     margin-right: auto;
     background-color: lawngreen;
-    border: 3px solid black;
+    display: inline-block;
 }
 
 #topimage h1 {
@@ -25,21 +26,22 @@ html {
 }
 
 #header {
-    width: 99%;
+    width: 100%;
     height: 50px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2px;
-    border: 3px solid black;
+    display: inline-block;
+    background-color: fuchsia;
 }
 
 #subheader {
-    width: 50%;
+    width: 40%;
     height: 600px;
     background-color: firebrick;
     float: left;
     position: absolute;
-    margin-left: 25%;
+    margin-left: 30%;
     margin-right: auto;
     margin-top: -200px;
 
@@ -48,7 +50,7 @@ html {
 #left {
     width: 15%;
     height: 900px;
-    margin-top: 1px;
+    margin-top: 0px;
     float: left;
     background-color: green;
 }
@@ -60,14 +62,14 @@ html {
     width: 65%;
     height: 900px;
     float: left;
-    margin-top: 1px;
+    margin-top: 0px;
     background-color: blue;
 }
 
 #right {
     width: 20%;
     height: 900px;
-    margin-top:1px;
+    margin-top:0px;
     float: left;
     background-color: indigo;
 }
