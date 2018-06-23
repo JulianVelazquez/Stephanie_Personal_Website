@@ -41,6 +41,12 @@ html {
     border: 3px dotted black;
 }
 
+#content {
+    margin-left: 0px;
+    margin-right: auto;
+    width: 100%;
+}
+
 #left {
     width: 15%;
     height: 900px;
@@ -70,5 +76,6 @@ html {
 
 #footer {
     width: 100%;
+    height: 100px;
     background-color: gray;
 }
